@@ -41,8 +41,9 @@ function delete_revisions_for_post( $post_id, $just_count = false ) {
 	// delete the oldest ones.
 	$revisions_to_keep = wp_revisions_to_keep( $post );
 
-	if ( $revisions_to_keep < 0 )
-		return array(-1, $revisions_to_keep);
+	// NOTE: make sure we don't abort if revisions are not enabled
+	//if ( $revisions_to_keep < 0 )
+	//	return array(-1, $revisions_to_keep);
 
 	$revisions_ids = get_post_revisions_ids( $post_id, array(
 		'order'         => 'ASC',
