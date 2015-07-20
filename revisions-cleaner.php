@@ -3,7 +3,7 @@
 Plugin Name:  IONATA's Remove Post Revisions
 Description:  Removes revisions for a particular post
 Plugin URI:   http://ionata.com.au/
-Version:      1.0.0
+Version:      1.0.1
 Author URI:   http://ionata.com.au/
 Author:       Ivaylo (Evo) Stamatov @ IONATA
 Author email: aviolit@gmail.com

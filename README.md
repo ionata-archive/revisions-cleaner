@@ -40,4 +40,4 @@ but won't disable the plugin - it will be able to delete any remaining revisions
 __NOTE:__ If you set this to zero, then once no posts have any revisions, it is
 best advised to disable and uninstall the plugin.
 
-<small>v1.0.0</small>
+<small>v1.0.1</small>
